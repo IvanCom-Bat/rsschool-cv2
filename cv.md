@@ -29,7 +29,9 @@ function elementPositionComp(elementComputer, nameElem){
 
 ```
 ## My project:
-
+[JS30-1](https://rolling-scopes-school.github.io/ivancom-bat-JSFEPRESCHOOL/js30-1/#)
+[JS30-2](https://rolling-scopes-school.github.io/ivancom-bat-JSFEPRESCHOOL/js30-2/#)
+[JS30-3](https://rolling-scopes-school.github.io/ivancom-bat-JSFEPRESCHOOL/js30-3/#)
 ---
 ## My education:
 Telecommunications engineer. [BSUIR](https://www.bsuir.by/en/)
