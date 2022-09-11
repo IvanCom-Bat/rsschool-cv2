@@ -1,0 +1,167 @@
+/* сброс стилей  */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+*,*:before,*:after{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+ol,
+ul,
+li{
+	list-style: none;
+}
+
+/* новые стили */
+
+  .body_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+ 
+  .name_img_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px 10px 10px;    
+  }
+
+  .header{
+   background-color: rgb(83, 202, 202);
+  }
+
+  .nav_header{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 0px 0px;
+  }
+  
+  a{
+    font-size: 30px;   
+  }
+
+  hr{
+    border-top: 1px solid rgba(71, 117, 116, 0.8);
+	  border-radius: 2px;
+  }
+  
+  h1{
+    font-size: 80px;
+	  font-weight: bold;
+  }
+
+  h2{
+    font-size: 40px;
+	  font-weight: 700;
+  }
+
+  h3{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 120%;
+    padding: 10px 0px 20px 10px;
+  }
+
+  .main{
+    padding: 20px 20px 0px 20px;
+  }
+
+  .menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    padding-inline-start: 25px;
+  }
+
+  .menu li{
+    margin: 0px 0px 0px 10px;
+  }  
+  
+  .img {
+    width:20%;
+    border-radius: 15px;
+    margin: 10px;
+  }
+
+  .code{
+    flex-basis: 48%;
+  }
+
+  pre{
+    font-size: 30px;
+    padding: 10px 0px 0px 10px;
+  }  
+
+  .skill_code{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+  }  
+  
+  .my_contact{
+    list-style-type: circle;
+  }  
+
+  .skill ul{
+    padding: 10px 0px 0px 40px;
+  }
+
+  .my_skill li{
+    font-size: 30px;
+    list-style-type: circle;
+    padding: 10px 0px 0px 10px;
+  }
+
+  .project_education{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+  }
+
+  #project{
+    padding: 0px 0px 15px 0px;
+  }
+
+  .my_education{
+    flex-basis: 48%;
+    padding: 0px 0px 15px 0px;
+  } 
+
+  .education li{
+    font-size: 30px;
+    padding: 10px 0px 0px 0px;    
+  }
+
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px 20px 20px;
+    background-color: rgb(83, 202, 202); 
+  }  
+
+  .img1{
+    width:100%;    
+  }
